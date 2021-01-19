@@ -1,0 +1,16 @@
+
+<image src="../../images/img.png" style="width:100rpx;height:100rpx"></image>
+
+
+
+<text>\n</text>
+
+
+<image src="../../images/img.png" style="width:100rpx;height:100rpx"></image>
+
+<view>{{msg}}</view>
+<input value="{{value}}" />
+
+
+
+<button bindtap="complte">确定</button>
