@@ -6,10 +6,11 @@
     "pages/menulist/menulist"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -17,20 +18,30 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath": "images/home_s.png"
       },
       {
         "pagePath": "pages/menulist/menulist",
-        "text": "列表"
+        "text": "商品",
+        "iconPath":"images/good.png",
+        "selectedIconPath": "images/good_s.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "购物车",
+        "iconPath":"images/car.png",
+        "selectedIconPath": "images/car_s.png"
       },
       {
         "pagePath": "pages/mine/mine",
-        "text": "我的"
+        "text": "我的",
+        "iconPath":"images/mine.png",
+        "selectedIconPath": "images/mine_s.png"
       }
-    ]
+    ],
+    "color": "#666666",
+    "selectedColor": "#DE422E"
   }
 }

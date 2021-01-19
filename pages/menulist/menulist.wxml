@@ -11,6 +11,27 @@
 <view>{{msg}}</view>
 <input value="{{value}}" />
 
+<text class="">66</text>
+
+<checkbox></checkbox>
+<checkbox checked="true"></checkbox>
+
+
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+  属性下标：{{index}}
+
+  值：{{item.name}}
+</view>
+
+<input type="text" bindinput="handleInput"></input>
+<view>{{num}}</view>
+
+
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
+
+加减值：{{num2}}
+
 
 
 <button bindtap="complte">确定</button>
